@@ -12,6 +12,8 @@ This project is centered on analyzing and visualizing educational data to extrac
 ---
 
 ### Data Frame Creation
+- This task involves generating specialized data frames from a broader dataset by applying specific filters, such as selecting students from particular tracks, hometowns, and genders who meet specific academic criteria. The filtered data frames are designed to focus on specific attributes and conditions, providing a clearer view of subsets within the data.
+
 ### Code Implementation and its Output
 
 ``` python
@@ -55,6 +57,8 @@ Mindy[['Name', 'Track', 'Electronics', 'Average']]
 ---
 
 ### Data Visualization
+- The objective is to create a visualization that illustrates how different factors, including college track, gender, and hometown, influence students' average grades. This analysis aims to determine the relative impact of these features on academic performance.
+  
 ### Code Implementation and its Output
 
 ``` python
