@@ -5,7 +5,7 @@ Below is a preview of the code, but there is also a Jupyter notebook uploaded in
 
 ---
 
-## 1. ECE Board Exam Problem
+## ECE Board Exam Problem
 ### Overview
 This project is centered on analyzing and visualizing educational data to extract meaningful insights about student performance. The problem involves two main tasks: creating specific data frames and generating visualizations to understand the factors influencing student average grades. 
 
@@ -26,7 +26,11 @@ board
 
 <img width="485" alt="Screenshot 2024-09-18 at 8 39 54 PM" src="https://github.com/user-attachments/assets/1c4b3580-4e86-48a8-bc10-c4b60ac6c741">
 
-
+- **Output:** `Name`, `GEAS`, and `Electronics`.
+- **Conditions:**
+    - Electronics score > 70
+    - Track = Instrumentation
+    - Hometown = Luzon
 
 ``` python
 #Filter rows where 'Track' is 'Instrumentation', 'Hometown' is 'Luzon', and 'Electronics' score is above 70
@@ -37,6 +41,13 @@ Instru[['Name', 'GEAS', 'Electronics']]
  ```
 
 <img width="168" alt="Screenshot 2024-09-18 at 8 40 27 PM" src="https://github.com/user-attachments/assets/05182a39-bbe1-40f4-bd32-340dfbda40d7">
+
+- **Output:** `Name`, `Track`, `Electronics`, and `Average`.
+- **Conditions:**
+    - Average score >= 55
+    - Track = Electronics
+    - Hometown = Mindanao
+    - Gender = Female
 
 ``` python
 #Filter the DataFrame to include only rows where 'Hometown' is 'Mindanao' and 'Gender' is 'Female'
@@ -66,7 +77,7 @@ Mindy[['Name', 'Track', 'Electronics', 'Average']]
 import matplotlib.pyplot as plt
 ```
 
-
+**Gender Bar Chart:**
 
 ``` python
 #Create a bar plot for Average Score by Gender
@@ -81,6 +92,7 @@ plt.show()  #Display the plot
 
 <img width="745" alt="Screenshot 2024-09-18 at 8 45 23 PM" src="https://github.com/user-attachments/assets/dd9ea052-53da-4bb1-a76c-caa769521b92">
 
+**Track Bar Chart:**
 
 ``` python
 #Create a bar plot for Average Score by Track
@@ -94,6 +106,8 @@ plt.show()  #Display the plot
 ```
 
 <img width="745" alt="Screenshot 2024-09-18 at 8 45 41 PM" src="https://github.com/user-attachments/assets/544c6687-c82e-4bfe-a94c-9abb2ba24c60">
+
+**Hometown Bar Chart:**
 
 ``` python
 #Create a bar plot for Average Score by Hometown
