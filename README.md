@@ -26,6 +26,7 @@ board
 
 <img width="485" alt="Screenshot 2024-09-18 at 8 39 54 PM" src="https://github.com/user-attachments/assets/1c4b3580-4e86-48a8-bc10-c4b60ac6c741">
 
+### a. Instru
 - **Output:** `Name`, `GEAS`, and `Electronics`.
 - **Conditions:**
     - Electronics score > 70
@@ -42,6 +43,7 @@ Instru[['Name', 'GEAS', 'Electronics']]
 
 <img width="168" alt="Screenshot 2024-09-18 at 8 40 27 PM" src="https://github.com/user-attachments/assets/05182a39-bbe1-40f4-bd32-340dfbda40d7">
 
+### b. Mindy
 - **Output:** `Name`, `Track`, `Electronics`, and `Average`.
 - **Conditions:**
     - Average score >= 55
@@ -77,7 +79,7 @@ Mindy[['Name', 'Track', 'Electronics', 'Average']]
 import matplotlib.pyplot as plt
 ```
 
-**Gender Bar Chart:**
+### Gender Bar Chart:
 
 ``` python
 #Create a bar plot for Average Score by Gender
@@ -92,7 +94,7 @@ plt.show()  #Display the plot
 
 <img width="745" alt="Screenshot 2024-09-18 at 8 45 23 PM" src="https://github.com/user-attachments/assets/dd9ea052-53da-4bb1-a76c-caa769521b92">
 
-**Track Bar Chart:**
+### Track Bar Chart:
 
 ``` python
 #Create a bar plot for Average Score by Track
@@ -107,7 +109,7 @@ plt.show()  #Display the plot
 
 <img width="745" alt="Screenshot 2024-09-18 at 8 45 41 PM" src="https://github.com/user-attachments/assets/544c6687-c82e-4bfe-a94c-9abb2ba24c60">
 
-**Hometown Bar Chart:**
+### Hometown Bar Chart:
 
 ``` python
 #Create a bar plot for Average Score by Hometown
